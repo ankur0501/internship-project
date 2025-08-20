@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import "./signin.css";
+import { FormField } from "../common/FormField";
 
 export const SignIn = () => {
   const navigate = useNavigate();
@@ -30,23 +31,23 @@ export const SignIn = () => {
 
           <form className="form signin-form" onSubmit={handleSubmit}>
             <div className="input-group">
-              <input
+              <FormField
                 type="email"
                 name="email"
                 placeholder="Enter email address"
+                label="Email Address"
                 required
               />
-              <label htmlFor="email">Email Address</label>
             </div>
 
             <div className="input-group">
-              <input
+              <FormField
                 type="password"
                 name="password"
+                label="Password"
                 placeholder="Enter password"
                 required
               />
-              <label htmlFor="password">Password</label>
             </div>
 
             <button type="submit">Login</button>

@@ -31,6 +31,7 @@ export const SignUp = () => {
               label="Full Name"
               placeholder="Enter your full name"
               required
+              asteriskRequired
             />
 
             {/* Phone Number */}
@@ -41,6 +42,7 @@ export const SignUp = () => {
               label="Phone Number"
               placeholder="Enter your phone number"
               required
+              asteriskRequired
             />
 
             {/* Email */}
@@ -51,6 +53,7 @@ export const SignUp = () => {
               label="Email Address"
               placeholder="Enter your email address"
               required
+              asteriskRequired
             />
 
             {/* Password */}
@@ -61,6 +64,7 @@ export const SignUp = () => {
               label="Password"
               placeholder="Enter your password"
               required
+              asteriskRequired
             />
 
             {/* Company Name */}
