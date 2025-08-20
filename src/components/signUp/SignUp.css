@@ -1,0 +1,38 @@
+.content-signup {
+  height: 100%;
+}
+
+.signup-form {
+  margin-top: 2rem;
+}
+
+.signup-radio {
+  font-size: 0.8125rem;
+}
+
+.radio-btns {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.radio-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.signup-form button {
+  background-color: #cbcbcb;
+  color: white;
+  margin-top: 3rem;
+}
+
+.signup-form button:hover {
+  background-color: #642af5;
+}
+
+.signup.container {
+  justify-content: start;
+}

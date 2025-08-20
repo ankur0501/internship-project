@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f2f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-account.container {
+  justify-content: end;
+}
+
+.create-account .card h1 {
+  font-size: 24px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.create-account .card p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 24px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.create-account .primary-btn {
+  background-color: #642af5;
+  color: white;
+  font-weight: bold;
+}
+
+.create-account .secondary-btn {
+  background-color: rgb(193, 165, 245);
+  color: black;
+  font-weight: bold;
+}

@@ -1,0 +1,29 @@
+.content-signin {
+  top: 0;
+  left: 0;
+}
+
+.content-signin .heading {
+  width: 65%;
+}
+
+.content-signin .description {
+  width: 70%;
+}
+
+.signin-form {
+  margin-top: 2rem;
+}
+
+.signin-form button {
+  background-color: #cbcbcb;
+  color: white;
+}
+
+.signin-form button:hover {
+  background-color: #642af5;
+}
+
+.signin.container {
+  justify-content: start;
+}

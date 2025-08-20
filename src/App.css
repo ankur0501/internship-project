@@ -1,0 +1,14 @@
+@import "./css/forms.css";
+
+.container {
+  width: 100%;
+  max-width: 285px;
+  background-color: rgb(241, 239, 239);
+  padding: 24px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  height: 85vh;
+  margin-top: 5vh;
+  border: 1px solid lightgray;
+}
